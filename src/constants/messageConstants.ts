@@ -1,0 +1,1 @@
+export const errorMessage = "You entered wrong value. Value must not be emty, shouldn't contain any special characters except -' and maximum length must be not bigger than 15";

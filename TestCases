@@ -1,0 +1,37 @@
+1. Command Execution.
+Steps:
+1.1. Open Visual Studio Code.
+1.2. Go to View -> Command Palette.
+1.3. Search for ">Print name" command.
+1.4. Ensure the command is displayed and selectable.
+1.5. Entering First and Last Names:
+
+2. Entering First and Last Names.
+Steps:
+2.1 Execute the "Print name" command from the Command Palette.
+2.2 Verify if an input box for the first name appears.
+2.3 Enter a valid first name.
+2.4 Confirm if a second input box for the last name appears.
+2.5 Enter a valid last name.
+2.6 Message with "Hello <first name> <last name>" is shown
+
+3. Validations for Empty Values.
+Steps:
+3.1 Execute the "Print name" command.
+3.2 Leave the first name input empty and attempt to proceed.
+3.3 Leave the last name input empty and attempt to proceed.
+3.4 Verify that error message is shown "You entered wrong value. Value must not be emty, shouldn't contain any special characters except -' and maximum length must be not bigger than 15"
+
+4. Validations for Special Characters.
+Steps:
+4. Execute the "Print name" command.
+4. Enter a first name containing special characters other than - and '
+4. Enter a last name containing special characters other than - and '
+4. Verify that error message is shown "You entered wrong value. Value must not be emty, shouldn't contain any special characters except -' and maximum length must be not bigger than 15"
+
+5. Validation for Name Length.
+Steps:
+5.1 Execute the "Print name" command.
+5.2 Enter a first name bigger than 15 characters.
+5.3 Enter a last name bigger than 15 characters.
+5.4 Verify that error message is shown "You entered wrong value. Value must not be emty, shouldn't contain any special characters except -' and maximum length must be not bigger than 15"
